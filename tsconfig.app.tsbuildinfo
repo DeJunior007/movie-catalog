@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/router/index.ts","./src/services/api.ts","./src/app.vue","./src/components/helloworld.vue","./src/components/moviecard.vue","./src/views/categories.vue","./src/views/discoverview.vue","./src/views/homeview.vue","./src/views/moviedetails.vue","./src/views/randommovie.vue"],"version":"5.8.2"}

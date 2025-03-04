@@ -5,8 +5,19 @@ import { useRoute } from 'vue-router'
 import MovieCard from '../components/MovieCard.vue'
 
 const route = useRoute()
-const movies = ref([])
-const genres = ref([])
+interface Movie {
+  id: number;
+  title: string;
+  // Add other properties as needed
+}
+
+const movies = ref<Movie[]>([])
+interface Genre {
+  id: number;
+  name: string;
+}
+
+const genres = ref<Genre[]>([])
 const loading = ref(false)
 const currentPage = ref(1)
 const totalPages = ref(0)
